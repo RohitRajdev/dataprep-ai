@@ -1,43 +1,34 @@
 [build-system]
 requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
-
 [project]
 name = "dataprep-ai"
 version = "0.1.1"
 description = "One-line data cleaning for pandas/Polars with reports and a reversible patch."
-authors = [{ name="Rohit Rajdev", email="rohit@sandscript.ai
-" }]
+authors = [{ name = "Rohit Rajdev", email = "rohit@sandscript.ai" }]
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.9"
 keywords = ["data cleaning","pandas","polars","data wrangling","preprocessing"]
 dependencies = [
-"pandas>=1.5",
-"numpy>=1.23",
-"pyarrow>=10",
-"scikit-learn>=1.2",
-"polars>=1.0.0; platform_system != 'Windows' or python_version >= '3.10'",
-"pydantic>=2.6",
-"rich>=13.7.0"
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "pyarrow>=10",
+  "scikit-learn>=1.2",
+  "polars>=1.0.0; platform_system != 'Windows' or python_version >= '3.10'",
+  "pydantic>=2.6",
+  "rich>=13.7.0"
 ]
-
 [project.urls]
-Homepage = "https://github.com/RohitRajdev/dataprep-ai
-"
-Documentation = "https://github.com/RohitRajdev/dataprep-ai#readme
-"
-Issues = "https://github.com/RohitRajdev/dataprep-ai/issues
-"
-
+Homepage = "https://github.com/RohitRajdev/dataprep-ai"
+Documentation = "https://github.com/RohitRajdev/dataprep-ai#readme"
+Issues = "https://github.com/RohitRajdev/dataprep-ai/issues"
 [project.optional-dependencies]
 app = ["streamlit>=1.35.0","matplotlib>=3.7"]
 full = ["streamlit>=1.35.0","matplotlib>=3.7","ydata-profiling>=4.6; python_version >= '3.9'"]
-
 [tool.hatch.build.targets.wheel]
 packages = ["src/dataprep_ai"]
 include = ["src/dataprep_ai/**/.py","README.md","LICENSE","examples/","docs/*"]
-
 [tool.pytest.ini_options]
 addopts = "-q --disable-warnings"
 pythonpath = ["src"]
