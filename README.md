@@ -1,3 +1,5 @@
+![CI](https://github.com/RohitRajdev/dataprep-ai/actions/workflows/ci.yml/badge.svg)
+
 dataprep-ai
 
 One-line, opinionated data cleaning for pandas/Polars.
