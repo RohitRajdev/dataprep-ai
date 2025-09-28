@@ -6,7 +6,11 @@ def test_basic_clean():
         "age":[23, None, 25, 1000],
         "city":["NY","New York","nyc", None]
     })
-    res = clean(df, CleaningConfig(category_aliases={"New York":["NY","nyc","new york"]}))
+    cfg = CleaningConfig(
+        category_aliases={"New York": ["NY","nyc","new york"]},
+        drop_duplicates=False  # keep all rows for this test
+    )
+    res = clean(df, cfg)
     assert len(res.df) == 4
     assert res.df["age"].isna().sum() == 0
-    assert "Steps" in res.summary_markdown or "Rows before" in res.summary_markdown
+    assert "Rows before" in res.summary_markdown
