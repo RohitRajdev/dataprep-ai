@@ -4,21 +4,24 @@ build-backend = "hatchling.build"
 [project]
 name = "dataprep-ai"
 version = "0.1.1"
-description = "One-line data cleaning for pandas/Polars with reports and a reversible patch."
-authors = [{ name = "Rohit Rajdev", email = "rohit@sandscript.ai" }]
+description = "One-line, opinionated data cleaning for pandas/Polars"
+authors = [{ name="Rohit Rajdev" }]
 readme = "README.md"
 license = { text = "Apache-2.0" }
-requires-python = ">=3.9"
-keywords = ["data cleaning","pandas","polars","data wrangling","preprocessing"]
+requires-python = ">=3.9,<3.13"
 dependencies = [
-  "pandas>=1.5",
-  "numpy>=1.23",
-  "pyarrow>=10",
-  "scikit-learn>=1.2",
-  "polars>=1.0.0; platform_system != 'Windows' or python_version >= '3.10'",
-  "pydantic>=2.6",
-  "rich>=13.7.0"
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "pyarrow>=14.0.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0"
 ]
+[project.optional-dependencies]
+app = ["streamlit>=1.35.0", "matplotlib>=3.8.0", "polars>=1.6.0"]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 [project.urls]
 Homepage = "https://github.com/RohitRajdev/dataprep-ai"
 Documentation = "https://github.com/RohitRajdev/dataprep-ai#readme"
