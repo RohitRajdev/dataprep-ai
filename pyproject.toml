@@ -9,6 +9,19 @@ authors = [{ name="Rohit Rajdev" }]
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.9,<3.13"
+requires-python = ">=3.9,<3.13"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
 dependencies = [
     "pandas>=2.0.0",
     "numpy>=1.24.0",
