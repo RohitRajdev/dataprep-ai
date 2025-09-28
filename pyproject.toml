@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "dataprep-ai"
-version = "0.1.1"
+version = "0.1.4"
 description = "One-line, opinionated data cleaning for pandas/Polars. Fixes missing values, categories, outliers, and duplicates with transparent logs and a reproducible report."
 authors = [{ name = "Rohit Rajdev", email = "rohit@sandscript.ai" }]
 readme = "README.md"
