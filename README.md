@@ -2,7 +2,8 @@
 [![PyPI](https://img.shields.io/pypi/v/dataprep-ai.svg)](https://pypi.org/project/dataprep-ai/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/dataprep-ai.svg)](https://pypi.org/project/dataprep-ai/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Downloads](https://img.shields.io/pypi/dm/dataprep-ai.svg)](https://pypistats.org/packages/dataprep-ai)
+[![Downloads](https://pepy.tech/badge/dataprep-ai)](https://pepy.tech/project/dataprep-ai)
+
 
 
 
