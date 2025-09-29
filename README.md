@@ -7,6 +7,7 @@
 
 
 
+
 # dataprep-ai
 
 **One-line, opinionated data cleaning for pandas/Polars.**  
