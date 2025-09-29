@@ -2,7 +2,8 @@
 [![PyPI](https://img.shields.io/pypi/v/dataprep-ai)](https://pypi.org/project/dataprep-ai/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/dataprep-ai)](https://pypi.org/project/dataprep-ai/)
 [![License](https://img.shields.io/pypi/l/dataprep-ai)](https://github.com/RohitRajdev/dataprep-ai/blob/main/LICENSE)
-[![Downloads](https://static.pepy.tech/badge/dataprep-ai)](https://pepy.tech/project/dataprep-ai)
+[![Downloads](https://static.pepy.tech/badge/dataprep-ai/month)](https://pepy.tech/project/dataprep-ai)
+
 
 
 
