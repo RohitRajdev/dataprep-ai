@@ -3,12 +3,28 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/dataprep-ai)](https://pypi.org/project/dataprep-ai/)
 [![License](https://img.shields.io/pypi/l/dataprep-ai)](https://github.com/RohitRajdev/dataprep-ai/blob/main/LICENSE)
 
+---
 
+## Why we built `dataprep-ai`
 
+Every data project starts with excitement — and then comes the messy part:  
+**missing values, inconsistent categories, outliers, and duplicates.**
 
+We found ourselves writing the same boilerplate Pandas/Polars code again and again, just to get to the *real* work: analysis, modeling, insight. It was frustrating, repetitive, and error-prone.  
 
+So we asked: *What if data cleaning could be a one-liner?*  
+That’s how `dataprep-ai` was born.  
 
+---
 
+## What it does
+
+- 🧹 **Cleans your dataset in one line**  
+- 🏷 **Normalizes messy categories** (NY → New York, etc.)  
+- 🔍 **Handles missing values & outliers** with smart strategies  
+- 📊 **Produces transparent logs** and reproducible reports  
+- ⚡ **Works with Pandas and Polars** out of the box  
+- 🛠 **CI-tested and PyPI-ready**  
 
 # dataprep-ai
 
